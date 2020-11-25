@@ -54,24 +54,14 @@ namespace DiseñoChat.Controllers
         //GET 
         public ActionResult ListaContactos()
         {
+            return View(InfoContactos);//Mostrar lista de contactos de un usuario
+        }
+
+        // CHAT
+        public ActionResult Chat()
+        {
             return View();
         }
-        //POST:
-        [HttpPost]
-        public ActionResult ListaContactos(FormCollection collection)
-        {
-            try
-            {
-
-                return RedirectToAction("Index");
-            }
-            catch 
-            {
-                return View();
-            }
-        }
-        // CHAT
-
 
 
 
