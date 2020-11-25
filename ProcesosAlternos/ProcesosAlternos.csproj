@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Diffie-Hellman\" />
     <Folder Include="SDES\" />
   </ItemGroup>
 
